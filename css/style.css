@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    color: #1a7a72;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+.contenedor-tarjetas {
+    margin-top: 20px;
+}
+
+.tarjeta {
+    display: inline-block;
+    width: 230px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 120px;
+}
+
+.encabezado-categoria {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.lista-elementos {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item img {
+    width: 220px;
+    height: 180px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.contenedor-ficha {
+    margin-top: 30px;
+}
+
+.foto-ficha, .datos-ficha {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 10px;
+}
+
+.foto-ficha img {
+    width: 150px;
+}
+
+a {
+    color: rgb(8, 145, 42);
+    text-decoration: underline;
+}
+
+.encabezado {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: #d1f9ba; 
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
